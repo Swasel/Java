@@ -16,5 +16,14 @@ public class InnerClass {
     obj.show();
     A.B obj1 = obj.new B();
     obj1.config();
+
+    // Anonymous Inner class
+    //this can be done in abstract class also
+    A obj2 = new A() {
+      public void show() {
+        System.out.println("new show");
+      }
+    };
+    obj2.show();
   }
 }
