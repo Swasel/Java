@@ -1,0 +1,17 @@
+Modifier  ||  Same Class  ||  Same Package  ||  Subclass (Diff Package)  ||  World (Anywhere)
+private   ||  Yes         ||       No       ||           No              ||         No
+Default (No keyword)Yes   ||      Yes       ||           No              ||         No
+protected ||     Yes      ||      Yes       ||          Yes              ||         No
+public    ||     Yes      ||      Yes       ||          Yes              ||         Yes
+
+
+Polymorphism
+
+-- run time => Method overriding
+-- compile time => Method overloading
+
+Final keyword
+
+-- Variable => The value/reference cannot be changed after assignment.
+-- Method => The method cannot be overridden by subclasses
+-- Class => The class cannot be inherited or extended.
