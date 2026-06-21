@@ -24,3 +24,20 @@ Annotation
 @Inherited =>	Allows child classes to inherit annotation
 @Documented	=> Includes annotation in Javadoc
 @Deprecated => Marks a method or class as outdated.
+
+Types of Interface
+
+-- Noramal interface =>  two or more abstract method
+-- Functional Inteface => only one abstract method
+-- Marker Interface => no abstract method
+
+Errors 
+
+-- Runtime Errors => These occur while the program is running. They are usually caused by exceptions.
+                  => example divide by zero
+
+-- Compile time Errors => (Syntax Errors) These errors are detected by the compiler before the program runs.
+                       => example Missing semicolon
+                       
+-- Logical Errors => The program compiles and runs, but produces the wrong output.
+                  => example incorrect formula
