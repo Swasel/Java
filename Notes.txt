@@ -56,3 +56,8 @@ Race condition
 -- A race condition occurs when multiple threads access and modify shared data simultaneously, and the final result depends on the order of execution of those threads. 
 -- It can lead to inconsistent or incorrect results. 
 -- Race conditions can be prevented using synchronization techniques such as synchronized methods, blocks, or atomic classes.
+
+Collection
+-- Queue => Dequeue
+-- List => ArrayList, LinkedList 
+-- Set => HashSet, LinkedHashSet
